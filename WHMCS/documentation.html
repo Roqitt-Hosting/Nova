@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Email Template Integration Guide</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+        body {
+            font-family: Arial, sans-serif;
+            /* background-color: #f4f4f4; */
+            background-color: #E6E6E6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #4169e1;
+            text-align: center;
+            padding: 20px 0;
+            border-radius: 7px 7px 0 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 0 0 7px 7px;
+        }
+        h1 {
+            font-size: 28px;
+            text-align: center;
+            font-family: "Sora", Sans-serif;
+        }
+        .guide {
+            margin-top: 30px;
+            line-height: 1.6;
+        }
+        .guide h2 {
+            font-size: 24px;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            font-family: "Sora", Sans-serif;
+        }
+        .guide p {
+            margin-bottom: 15px;
+            font-family: "Poppins", Sans-serif;
+        }
+        .guide ol {
+            list-style: decimal inside;
+            padding-left: 20px;
+        }
+        .guide ol li {
+            margin-bottom: 10px;
+            font-family: "Poppins", Sans-serif;
+        }
+        code {
+            font-family: 'Courier New', monospace;
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 3px;
+            color: #333;
+        }
+        .footer {
+            background-color: #4169e1; /* Updated footer background color */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 0 0 7px 7px;
+            padding: 15px;
+            font-family: "Poppins", Sans-serif;
+        }
+        .footer a {
+            color: #fff; /* Updated link color */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="roqitt-logo.png" width="30%" alt="Your Logo">
+        </div>
+        <h1><u>Nova WHMCS Integration Guide</u></h1>
+        <div class="guide">
+          <p style="color: #D10000; text-align: center;">
+            <strong>
+              Before continuing, please ensure you have gone through the files <code>header.html</code> and <code>footer.html</code>. These are where you need to add your own logo, update your links where necessary as well as the links to your social media pages.
+            </strong>
+          </p>
+            <h2>Step-by-Step Integration</h2>
+            <ol>
+                <li>
+                    <strong>Access WHMCS Admin Area</strong><br>
+                    Log in to your WHMCS admin area using your administrator credentials.
+                </li>
+                <li>
+                    <strong>Navigate to Email Settings</strong><br>
+                    In the WHMCS admin area, go to "Setup" and select "General Settings." Then, click on the "Mail" tab.
+                </li>
+                <li>
+                    <strong>Customize Email Templates</strong><br>
+                    Under the "Mail" tab, you'll find settings for customizing email templates. Follow these instructions to integrate your custom HTML and CSS email templates:
+                    <ul>
+                        <li>
+                            <strong>Header</strong><br>
+                            Open your <code>header.html</code> file and copy the HTML code from this file. In WHMCS, paste the HTML code into the "Email Header" section.
+                        </li>
+                        <li>
+                            <strong>Footer</strong><br>
+                            Open your <code>footer.html</code> file and copy the HTML code from this file. In WHMCS, paste the HTML code into the "Email Footer" section.
+                        </li>
+                        <li>
+                            <strong>Global CSS</strong><br>
+                            Open your <code>global.css</code> file and copy the CSS code from this file. In WHMCS, paste the CSS code into the "Global CSS" section.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Save Changes</strong><br>
+                    After pasting the code into the respective sections, click the "Save Changes" button to save your email template customizations.
+                </li>
+            </ol>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 Roqitt Hosting Ltd</p>
+            <p><strong>v1.0.0</strong></p>
+            <p>
+                <a href="https://roqitthosting.co.uk/">Support</a> |
+                <a href="https://github.com/Roqitt-Hosting/Nova">GitHub</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
