@@ -11,3 +11,11 @@ If you'd like to contribute to Nova Email Template's development, please read th
 ## Bugs and Issues
 
 If you encounter any bugs or have issues, please submit them through the [GitHub Issues](https://github.com/Roqitt-Hosting/Nova/issues) page.
+
+## Contributors
+
+We'd like to extend our thanks to the following contributors to the dev branch:
+
+- Liam Mcglynn [@mcglynn14](https://github.com/mcglynn14)
+
+Your contributions to Nova Email Template are greatly appreciated!
