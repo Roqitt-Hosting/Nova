@@ -152,6 +152,9 @@
           display: inline-block;
           white-space: nowrap;
         }
+        .keyword {
+          color: red;
+        }
     </style>
 </head>
 <body>
@@ -203,6 +206,18 @@
                   &lt;i class="fab fa-facebook-f"&gt;&lt;/i&gt;
                 </code>
               </div>
+              <h3 class="sub-header">Custom Logo</h3>
+              <p>
+                To add your custom logo to the email template, locate the following code in the <code>header.html</code> file:
+                <div class="code-block">
+                  <code style="color: #fff;">
+                    &lt;img src="https://placehold.co/514x181.png?text=Your+Logo" width="40%"&gt;
+                  </code>
+                </div>
+              </p>
+              <p>
+                Replace the <span class="keyword">src</span> attribute in this code with the URL pointing to your own logo. Make sure the image dimensions match your preferred logo size.
+              </p>
               <p>By customizing Nova, you can create email templates that reflect the unique personality and identity of your business while maintaining a professional and polished appearance.</p>
             </section>
 
