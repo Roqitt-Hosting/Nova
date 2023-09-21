@@ -10,3 +10,54 @@ body {
       color: #222222;
       background-color: #f5f5f5;
     }
+
+    .btn-nt {
+      color: #fff !important;
+      padding: 15px 30px;
+      text-decoration: none !important;
+      border-radius: 5px;
+      display: inline-block;
+      font-weight: bold;
+      transition: background-color 0.3s ease-in-out;
+      margin-top: 20px;
+    }
+
+    .btn-nt-primary {
+      background-color: #4169e1;
+    }
+
+    .btn-nt-primary:hover {
+      background-color: #3355a0;
+    }
+
+    .btn-nt-success {
+      background-color: #49B265;
+    }
+
+    .btn-nt-success:hover {
+      background-color: #159947;
+    }
+
+    .btn-nt-danger {
+      background-color: #dc3545;
+    }
+
+    .btn-nt-danger:hover {
+      background-color: #b02a37;
+    }
+
+    .btn-nt-warning {
+      background-color: #ffc107;
+    }
+
+    .btn-nt-warning:hover {
+      background-color: #ffc720;
+    }
+
+    .btn-nt-dark {
+      background-color: #212529;
+    }
+
+    .btn-nt-dark:hover {
+      background-color: #424649;
+    }
