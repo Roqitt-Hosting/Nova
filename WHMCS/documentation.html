@@ -159,8 +159,7 @@
           color: red;
         }
 
-        .button {
-          background-color: #4169e1;
+        .btn-nt {
           color: #fff !important;
           padding: 15px 30px;
           text-decoration: none !important;
@@ -171,8 +170,53 @@
           margin-top: 20px;
         }
 
-        .button:hover {
+        .btn-nt-primary {
+          background-color: #4169e1;
+        }
+
+        .btn-nt-primary:hover {
           background-color: #3355a0;
+        }
+
+        .btn-nt-success {
+          background-color: #49B265;
+        }
+
+        .btn-nt-success:hover {
+          background-color: #159947;
+        }
+
+        .btn-nt-danger {
+          background-color: #dc3545;
+        }
+
+        .btn-nt-danger:hover {
+          background-color: #b02a37;
+        }
+
+        .btn-nt-warning {
+          background-color: #ffc107;
+        }
+
+        .btn-nt-warning:hover {
+          background-color: #ffc720;
+        }
+
+        .btn-nt-dark {
+          background-color: #212529;
+        }
+
+        .btn-nt-dark:hover {
+          background-color: #424649;
+        }
+
+        .examples {
+          display: flex;
+          justify-content: center;
+        }
+        .example-inline {
+          display: inline-block;
+          margin-right: 20px;
         }
     </style>
 </head>
@@ -188,6 +232,7 @@
                 <li><a href="#customization">Customization</a></li>
                 <li><a href="#whmcs-integration">WHMCS Integration</a></li>
                 <li><a href="#troubleshooting">Troubleshooting</a></li>
+                <li><a href="#components">Components</a></li>
                 <li><a href="#support">Support</a></li>
             </ul>
         </div>
@@ -208,7 +253,7 @@
               </ol>
 
               <div style="text-align: center;">
-                <a href="#whmcs-integration" class="button">
+                <a href="#whmcs-integration" class="btn-nt btn-nt-primary">
                   <i class="fa-solid fa-angles-down"></i> Jump to WHMCS Integration <i class="fa-solid fa-angles-down"></i>
                 </a>
               </div>
@@ -271,6 +316,41 @@
                     <li>Clear your browser cache and WHMCS template cache.</li>
                     <li>Verify that your WHMCS installation is up to date.</li>
                 </ul>
+            </section>
+
+            <section id="components">
+              <div class="section-title">
+                <h2>Components</h2>
+              </div>
+              <h3 class="sub-header">Buttons</h3>
+              <p>The button component provides a styled button that you can use in your email templates.</p>
+              <div class="examples">
+                <div class="example-inline">
+                  <a href="#" class=" btn-nt btn-nt-primary">
+                    Primary
+                  </a>
+                  <a href="#" class="btn-nt btn-nt-success">
+                    Success
+                  </a>
+                  <a href="#" class="btn-nt btn-nt-danger">
+                    Danger
+                  </a>
+                  <a href="#" class="btn-nt btn-nt-warning">
+                    Warning
+                  </a>
+                  <a href="#" class="btn-nt btn-nt-dark">
+                    Dark
+                  </a>
+                </div>
+              </div>
+              <h3>Usage</h3>
+              <p>To use the button component, add the following HTML structure:</p>
+              <div class="code-block">
+                <code style="color: #fff;">
+                  &lt;a href="#" class="btn-nt btn-nt-primary"&gt;Primary Button&lt;/a&gt;
+                </code>
+              </div>
+              <!-- <p>You can customize the button's appearance by modifying the CSS styles in your template's stylesheet. To change the button's background color, text color, or other properties, update the corresponding styles in your CSS file.</p> -->
             </section>
 
             <section id="support">
