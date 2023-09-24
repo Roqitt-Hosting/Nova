@@ -62,3 +62,10 @@ body {
     .btn-nt-dark:hover {
       background-color: #424649;
     }
+
+    .nt-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
