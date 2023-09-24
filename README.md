@@ -6,7 +6,7 @@ Nova is a modern and customizable email template designed for WHMCS, making your
 
 ## Introduction
 
-Nova Email Template for WHMCS offers a fresh and contemporary design to enhance your email communications. It's the perfect choice for businesses that want to leave a lasting impression on their clients. 
+Nova Email Template for WHMCS offers a fresh and contemporary design to enhance your email communications. It's the perfect choice for businesses that want to leave a lasting impression on their clients.
 
 ## Key Features
 
@@ -39,5 +39,3 @@ This project is licensed under the [GNU General Public License v3.0](https://git
 ---
 
 If you find Nova Email Template for WHMCS helpful, don't forget to star the repository and spread the word!
-
-

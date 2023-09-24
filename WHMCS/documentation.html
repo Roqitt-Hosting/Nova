@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova Email Template Documentation</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/365667f62b.js" crossorigin="anonymous"></script>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
@@ -77,6 +80,11 @@
             margin-bottom: 15px;
         }
 
+        h3.sub-header {
+          font-family: "Sora", Sans-serif;
+          color: #1a1a1a;
+        }
+
         p {
             font-family: "Poppins", Sans-serif;
             line-height: 1.6;
@@ -118,11 +126,11 @@
 
         /* Footer Styling */
         .footer {
-            background-color: #333; /* Background color kept the same */
-            color: white; /* Updated text color */
+            background-color: #333;
+            color: #fff;
             text-align: center;
-            padding: 20px 0; /* Increased padding */
-            font-size: 16px; /* Adjusted font size */
+            padding: 20px 0;
+            font-size: 16px;
         }
 
         .version {
@@ -138,17 +146,94 @@
         .content a:hover {
           text-decoration: underline;
         }
+
+        .code-block {
+          background-color: #000;
+          padding: 10px;
+          border-radius: 5px;
+          font-family: 'Courier New', monospace;
+          display: inline-block;
+          white-space: nowrap;
+        }
+        .keyword {
+          color: red;
+        }
+
+        .btn-nt {
+          color: #fff !important;
+          padding: 15px 30px;
+          text-decoration: none !important;
+          border-radius: 5px;
+          display: inline-block;
+          font-weight: bold;
+          transition: background-color 0.3s ease-in-out;
+          margin-top: 20px;
+        }
+
+        .btn-nt-primary {
+          background-color: #4169e1;
+        }
+
+        .btn-nt-primary:hover {
+          background-color: #3355a0;
+        }
+
+        .btn-nt-success {
+          background-color: #49B265;
+        }
+
+        .btn-nt-success:hover {
+          background-color: #159947;
+        }
+
+        .btn-nt-danger {
+          background-color: #dc3545;
+        }
+
+        .btn-nt-danger:hover {
+          background-color: #b02a37;
+        }
+
+        .btn-nt-warning {
+          background-color: #ffc107;
+        }
+
+        .btn-nt-warning:hover {
+          background-color: #ffc720;
+        }
+
+        .btn-nt-dark {
+          background-color: #212529;
+        }
+
+        .btn-nt-dark:hover {
+          background-color: #424649;
+        }
+
+        .examples {
+          display: flex;
+          justify-content: center;
+        }
+        .example-inline {
+          display: inline-block;
+          margin-right: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="side-menu">
+          <div style="text-align: center;">
+            <img src="nova-logo.png" width="100%" alt="Your Logo">
+          </div>
             <h2>Documentation</h2>
             <ul>
                 <li><a href="#installation">Installation</a></li>
-                <li><a href="#customization">Customization</a></li>
+                <li><a href="#customisation">Customisation</a></li>
                 <li><a href="#whmcs-integration">WHMCS Integration</a></li>
                 <li><a href="#troubleshooting">Troubleshooting</a></li>
+                <li><a href="#components">Components</a></li>
+                <li><a href="#customisation-cost">Customisation Service</a></li>
                 <li><a href="#support">Support</a></li>
             </ul>
         </div>
@@ -165,25 +250,50 @@
                 <li>Click on <strong>"Setup"</strong> in the top menu.</li>
                 <li>Choose <strong>"General Settings"</strong> from the dropdown menu.</li>
                 <li>Click on the <strong>"Mail"</strong> tab.</li>
-                <li>Refer to the <strong>"WHMCS Integration"</strong> section below for instructions on customizing your email templates.</li>
+                <li>Refer to the <strong>"WHMCS Integration"</strong> section below for further instructions.</li>
               </ol>
+
+              <div style="text-align: center;">
+                <a href="#whmcs-integration" class="btn-nt btn-nt-primary">
+                  <i class="fa-solid fa-angles-down"></i> Jump to WHMCS Integration <i class="fa-solid fa-angles-down"></i>
+                </a>
+              </div>
             </section>
 
-            <section id="customization">
+            <section id="customisation">
               <div class="section-title">
-                <h2>Customization</h2>
+                <h2>Customisation</h2>
               </div>
-              <p>Make Nova your own by customizing its appearance:</p>
-              <p>Nova Email Template is designed to be easily customizable, allowing you to tailor it to your branding and preferences. You can modify both the HTML and CSS files to achieve the desired look and feel for your email communications.</p>
-              <p>Here are some aspects you can customize:</p>
+              <p>Customise Nova Email Template to match your unique brand identity:</p>
+              <p>Nova Email Template offers easy customisation options, allowing you to tailor its appearance according to your branding and preferences. You have the flexibility to modify both the HTML and CSS files to achieve the desired look and feel for your email communications.</p>
+              <p>Here are some aspects you can personalise:</p>
               <ul>
-                <li>Change the template's color scheme to match your brand's identity.</li>
-                <li>Insert your company's logo and branding elements.</li>
-                <li>Adjust font styles and sizes for consistency with your brand guidelines.</li>
-                <li>Update your social media links to connect with your audience.</li>
+                <li>Adjust the template's colour scheme to align with your brand's identity.</li>
+                <li>Incorporate your company's logo and branding elements seamlessly.</li>
+                <li>Tweak font styles and sizes to maintain consistency with your brand guidelines.</li>
+                <li>Update your social media links, ensuring you stay connected with your audience.</li>
               </ul>
-              <p>Additionally, Nova Email Template uses Font Awesome for its social media icons. You can easily replace the existing icons with your preferred social media links by referencing Font Awesome's icon library and updating the relevant HTML code.</p>
-              <p>By customizing Nova, you can create email templates that reflect the unique personality and identity of your business while maintaining a professional and polished appearance.</p>
+              <p>With Nova's customisation capabilities, you can create email templates that reflect your business's unique personality and identity, all while maintaining a professional and polished appearance.</p>
+
+              <h3 class="sub-header">Social Media Icons</h3>
+              <p>Nova Email Template uses Font Awesome for its social media icons. You can easily replace the existing icons with your preferred social media links by referring to <a href="https://fontawesome.com/icons" target="_blank">Font Awesome's icon library</a> and updating the relevant HTML code as shown below.</p>
+              <div class="code-block">
+                <code style="color: #fff;">
+                  &lt;i class="fab fa-facebook-f"&gt;&lt;/i&gt;
+                </code>
+              </div>
+              <h3 class="sub-header">Custom Logo</h3>
+              <p>
+                To add your custom logo to the email template, locate the following code in the <code>header.html</code> file:
+                <div class="code-block">
+                  <code style="color: #fff;">
+                    &lt;img src="https://placehold.co/514x181.png?text=Your+Logo" width="40%"&gt;
+                  </code>
+                </div>
+              </p>
+              <p>
+                Replace the <span class="keyword">src</span> attribute in this code with the URL pointing to your own logo. Make sure the image dimensions match your preferred logo size.
+              </p>
             </section>
 
             <section id="whmcs-integration">
@@ -192,9 +302,9 @@
                 </div>
                 <p>Learn how to integrate Nova with WHMCS:</p>
                 <ol>
-                    <li>Copy the contents of the <code>header.html</code> file into the "Email Header" section of WHMCS.</li>
-                    <li>Copy the contents of the <code>footer.html</code> file into the "Email Footer" section of WHMCS.</li>
-                    <li>Copy the contents of the <code>global.css</code> file into the "Global CSS" section of WHMCS.</li>
+                    <li>Copy the contents of the <code>header.html</code> file into the <strong>"Email Header"</strong> section of WHMCS.</li>
+                    <li>Copy the contents of the <code>footer.html</code> file into the <strong>"Email Footer"</strong> section of WHMCS.</li>
+                    <li>Copy the contents of the <code>global.css</code> file into the <strong>"Global CSS"</strong> section of WHMCS.</li>
                 </ol>
             </section>
 
@@ -202,7 +312,7 @@
                 <div class="section-title">
                     <h2>Troubleshooting</h2>
                 </div>
-                <p>If you encounter any issues, here are some troubleshooting tips:</p>
+                <p>If you encounter any problems, here are some troubleshooting tips:</p>
                 <ul>
                     <li>Ensure you have correctly copied and pasted the template code into WHMCS.</li>
                     <li>Clear your browser cache and WHMCS template cache.</li>
@@ -210,28 +320,102 @@
                 </ul>
             </section>
 
+            <section id="components">
+              <div class="section-title">
+                <h2>Components</h2>
+              </div>
+              <h3 class="sub-header">Buttons</h3>
+              <p>The button component provides a styled button that you can use in your email templates.</p>
+              <div class="examples">
+                <div class="example-inline">
+                  <a href="#" class=" btn-nt btn-nt-primary">
+                    Primary
+                  </a>
+                  <a href="#" class="btn-nt btn-nt-success">
+                    Success
+                  </a>
+                  <a href="#" class="btn-nt btn-nt-danger">
+                    Danger
+                  </a>
+                  <a href="#" class="btn-nt btn-nt-warning">
+                    Warning
+                  </a>
+                  <a href="#" class="btn-nt btn-nt-dark">
+                    Dark
+                  </a>
+                </div>
+              </div>
+              <h3>Usage</h3>
+              <p>To use the button component, add the following HTML structure:</p>
+              <div class="code-block">
+                <code style="color: #fff;">
+                  &lt;a href="#" class="btn-nt btn-nt-primary"&gt;Primary&lt;/a&gt;
+                  <br>
+                  &lt;a href="#" class="btn-nt btn-nt-success"&gt;Success&lt;/a&gt;
+                  <br>
+                  &lt;a href="#" class="btn-nt btn-nt-danger"&gt;Danger&lt;/a&gt;
+                  <br>
+                  &lt;a href="#" class="btn-nt btn-btn-warning"&gt;Warning&lt;/a&gt;
+                  <br>
+                  &lt;a href="#" class="btn-nt btn-btn-dark"&gt;Dark&lt;/a&gt;
+                </code>
+              </div>
+              <p>
+                In order to center the buttons, you will need to include the <code style="color: red;">nt-center</code> tag class, as shown below:
+              </p>
+              <div class="code-block">
+                <code style="color: #fff;">
+                  &lt;a href="#" class="nt-center btn-nt btn-nt-primary"&gt;Primary&lt;/a&gt;
+                </code>
+              </div>
+              <p>
+                You will need to add components to your email templates manually in WHMCS. To do this, navigate to <strong>'Settings' ➔ 'Email Templates'</strong>, select the template you want to edit, and click the 'Source Code' button. Manually add your custom HTML code within the email template HTML to include buttons tailored to your needs.
+              </p>
+            </section>
+
             <section id="support">
                 <div class="section-title">
                     <h2>Support</h2>
                 </div>
-                <p>If you need assistance or have any questions, please reach out to our support team:</p>
+                <p>If you need assistance or have any questions, please don't hesitate to contact our support team:</p>
                 <div class="support-info">
-                    <ul style="list-style-type: none; line-height: 1.5;">
-                        <li><strong>Email:</strong> tickets@roqitthosting.co.uk</li>
-                        <li><strong>Discord:</strong> <a href="https://discord.gg/brNbD7Cxzf" target="_blank">https://discord.gg/brNbD7Cxzf</a></li>
-                    </ul>
-                    <p style="text-align: center; color: #CC0000;">
-                      <strong>PLEASE NOTE:</strong> If you encounter any bugs, these should be reported via our <a href="https://github.com/Roqitt-Hosting/Nova/issues" target="_blank">Github Issues</a> page.
-                      <br>Make sure to include as much information as possible, including any screenshots where relevant.
+                  <div style="margin-top: 20px;display: flex; justify-content: center;">
+                    <a href="mailto:tickets@roqitthosting.co.uk" style="display: inline-block;margin-right: 20px;color: #1a1a1a;text-decoration: none;font-size: 24px;"><i class="fas fa-envelope fa-lg"></i></a>
+                		<a href="https://discord.gg/brNbD7Cxzf" style="display: inline-block;margin-right: 20px;color: #5865F2;text-decoration: none;font-size: 24px;"><i class="fab fa-discord fa-lg"></i></a>
+                  </div>
+                  <div class="note">
+                    <p><strong>Please Note:</strong></p>
+                    <p>
+                      If you encounter any bugs or have suggestions, please submit them through our
+                      <a href="https://github.com/Roqitt-Hosting/Nova/issues" target="_blank">GitHub Issues Page</a>.
+                      <br>
+                      To help us assist you better, include detailed information and any relevant screenshots.
                     </p>
+                  </div>
                 </div>
             </section>
+
+            <section id="customisation-cost">
+              <div class="section-title">
+                <h2>Customisation Service</h2>
+              </div>
+              <p>Looking to give Nova Email Template a distinctive appearance that aligns seamlessly with your brand?</p>
+              <p>Our customisation service allows you to:</p>
+              <ul>
+                <li>Add your company logo to the template, ensuring your branding is front and center.</li>
+                <li>Choose your brand's primary and secondary colors to be used throughout the template.</li>
+                <li>Customize the template's fonts to match your brand's typography.</li>
+              </ul>
+              <p>For a one-time fee of just £15, our team will work with you to integrate your branding elements seamlessly into Nova Email Template.</p>
+              <p>If you're interested in this customization service, please <a href="https://roqitthosting.co.uk/support">contact our sales team</a> for more information and to get started.</p>
+            </section>
+
         </div>
     </div>
     <div class="footer">
         &copy; 2023 Roqitt Hosting Ltd.
         <p style="font-size: 15px;">
-          <small><strong>Version: v1.0.1</strong></small>
+          <small><strong>Version: 1.1.1</strong></small>
         </p>
     </div>
 </body>
