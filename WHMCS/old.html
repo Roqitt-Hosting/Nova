@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova - Email Template</title>
+
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+  .btn-nt {
+    color: #fff !important;
+    padding: 15px 30px;
+    text-decoration: none !important;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+    max-width: 50%;
+  }
+
+  .btn-nt-primary {
+    background-color: #4169e1;
+  }
+
+  .btn-nt-primary:hover {
+    background-color: #3355a0;
+  }
+
+  .nt-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  </style>
+
+  <!-- <script src="https://kit.fontawesome.com/365667f62b.js" crossorigin="anonymous"></script> -->
+
+</head>
+<body style="margin: 0;padding: 0;font-family: 'Poppins', sans-serif;font-size: 14px;line-height: 1.4;color: #222222;background-color: #f5f5f5;">
+  <div class="wrapper" style="width: 100%;max-width: 600px;margin: 0 auto;background-color: #ffffff;border-radius: 4px;overflow: hidden;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);border-bottom: 6px solid #4169e1;">
+    <div class="header" style="padding: 30px;background-color: #4169e1;color: #ffffff;text-align: center;">
+      <img src="https://placehold.co/514x181.png?text=Your+Logo" width="40%">
+    </div>
+    <div class="content" style="padding: 30px;background-color: #ffffff;">
+			<div class="view-email" style="font-family: 'Poppins', Sans-serif;text-align: center;color: #777777;font-size: 12px;margin-bottom: 10px;">
+        Having problems viewing this email? <a href="{$whmcs_url}/clientarea.php?action=emails" style="color: #777777;text-decoration: none;"><strong>View email online</strong></a>
+      </div>
+      <!-- Email Content Goes Here -->
+			<h1 style="font-family: 'Sora', Sans-serif;color: #222222;margin-top: 0;">H1 Header</h1>
+			<p style="font-family: 'Poppins', Sans-serif;margin-bottom: 20px;">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			</p>
+			<h2 style="font-family: 'Sora', Sans-serif;color: #222222;margin-top: 0;">H2 Header</h2>
+			<p style="font-family: 'Poppins', Sans-serif;margin-bottom: 20px;">
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+			</p>
+			<h3 style="font-family: 'Sora', Sans-serif;color: #222222;margin-top: 0;">H3 Header</h3>
+			<p style="font-family: 'Poppins', Sans-serif;margin-bottom: 20px;">
+				Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+			</p>
+        <a href="#" class="btn-nt nt-center btn-nt-primary">
+          Example Button
+        </a>
+      </div>
+      <div class="hr-container" style="display: flex;justify-content: center;margin: 0 auto;">
+      	<hr class="hr" style="border-top: 1px solid #dddddd;width: 80%;margin: 0;color: #dddddd;">
+      </div>
+      <div class="footer" style="padding: 20px;background-color: #f5f5f5;text-align: center;font-size: 12px;color: #777777;">
+      	<div class="footer-links" style="margin-bottom: 10px;">
+      		<!-- The main footer links -->
+      		<a href="{$whmcs_url}/clientarea.php" style="color: #777777;text-decoration: none;margin: 0 10px;">Login to your account</a> |
+      		<a href="#" style="color: #777777;text-decoration: none;margin: 0 10px;">Support</a> |
+      		<a href="#" style="color: #777777;text-decoration: none;margin: 0 10px;">Terms of Service</a> |
+      		<a href="#" style="color: #777777;text-decoration: none;margin: 0 10px;">Privacy Policy</a> |
+      		<a href="#" style="color: #777777;text-decoration: none;margin: 0 10px;">About</a>
+      	</div>
+      	<p style="font-family: 'Poppins', Sans-serif;margin-bottom: 20px;margin: 0;">
+      		To unsubscribe from our emails, <a href="{$whmcs_url}/clientarea.php?action=details">click here</a>.
+      	</p>
+      	<div class="footer-address" style="margin-top: 20px;margin-bottom: 10px;">
+      		<p style="font-family:'Poppins', Sans-serif;margin-bottom: 20px;margin: 0;">Your Company</p>
+      		<p style="font-family: 'Poppins', Sans-serif;margin-bottom: 20px;margin: 0;">Your address</p>
+      	</div>
+      	<p class="footer-copyright" style="font-family: 'Poppins', Sans-serif;margin-bottom: 20px;margin-top: 20px;color: #777777;margin: 0;">
+      	<a href="https://roqitthosting.co.uk/" style="color: #777777;text-decoration: none;">
+      		&copy; 2023 Roqitt Hosting Ltd.
+      	</a>All rights reserved.
+      	</p>
+      	<!-- Social Media Icons -->
+        <div style="max-width: 50%; margin: auto; display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+          <a href="#" style="display: inline-block;margin: 0 2px;">
+            <img src="./novarss/facebook-f.png" alt="Facebook" width="60%" />
+          </a>
+          <a href="#" style="display: inline-block;margin: 0 2px;">
+            <img src="./novarss/x-twitter.png" alt="X/Twitter" width="60%" />
+          </a>
+          <a href="#" style="display: inline-block;margin: 0 2px;">
+            <img src="./novarss/instagram.png" alt="Instagram" width="60%" />
+          </a>
+          <a href="#" style="display: inline-block;margin: 0 2px;">
+            <img src="./novarss/youtube.png" alt="YouTube" width="60%" />
+          </a>
+          <a href="#" style="display: inline-block;margin: 0 2px;">
+            <img src="./novarss/linkedin.png" alt="LinkedIn" width="60%" />
+          </a>
+          <a href="#" style="display: inline-block;margin: 0 2px;">
+            <img src="./novarss/tiktok.png" alt="TikTok" width="60%" />
+          </a>
+          <a href="#" style="display: inline-block;margin: 0 2px;">
+            <img src="./novarss/discord.png" alt="Discord" width="60%" />
+          </a>
+        </div>
+      </div>
+      </div></body>
+      </html>
