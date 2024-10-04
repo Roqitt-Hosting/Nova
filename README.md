@@ -22,7 +22,7 @@ Nova Email Template for WHMCS offers a fresh and contemporary design to enhance 
 
 To get started with Nova, follow these simple steps:
 
-1. Integrate Nova into your WHMCS installation by following the instructions provided in the documentation.
+1. Integrate Nova into your WHMCS installation by following the instructions in our documentation [here](https://docs.roqitthosting.co.uk/Nova)
 
 2. Customize Nova's HTML and CSS to match your branding and preferences.
 
@@ -31,6 +31,12 @@ To get started with Nova, follow these simple steps:
 ## Feedback and Contributions
 
 We welcome feedback and contributions from the community. If you encounter any bugs or have suggestions for improvements, please submit them in the [GitHub Issues](https://github.com/Roqitt-Hosting/Nova/issues) section.
+
+## Support and Updates
+
+To stay up to date on the latest updates, feature releases, and to receive support, join our official Discord server:
+
+[![Join our Discord](https://img.shields.io/discord/your-discord-id?label=Join%20our%20Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/wuwTsbvyzN)
 
 ## License
 
