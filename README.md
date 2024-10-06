@@ -2,7 +2,7 @@
 
 Nova is a modern and customizable email template designed for WHMCS, making your email communications with clients more engaging and professional. With Nova, you can easily integrate your custom HTML and CSS email templates into WHMCS, providing a seamless and branded experience for your clients.
 
-![Nova Email Template](https://raw.githubusercontent.com/Roqitt-Hosting/Nova/main/Preview.png)
+![Nova Email Template](https://raw.githubusercontent.com/Roqitt-Hosting/Nova/main/preview.png)
 
 ## Introduction
 
