@@ -36,7 +36,7 @@ We welcome feedback and contributions from the community. If you encounter any b
 
 To stay up to date on the latest updates, feature releases, and to receive support, join our official Discord server:
 
-[![Join our Discord](https://img.shields.io/discord/wuwTsbvyzN?label=Join%20our%20Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/wuwTsbvyzN)
+[![Join our Discord](https://img.shields.io/discord/1159511387266097152?label=Join%20our%20Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/wuwTsbvyzN)
 
 ## License
 
